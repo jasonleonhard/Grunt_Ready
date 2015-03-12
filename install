@@ -6,9 +6,9 @@
   grunt;
   grunt test;
 
-  bower -v;
-  npm -v;
-  grunt -v;
-  grunt-cli -v;
+  echo "npm: "; npm -v;
+  echo "node: "; node -v;
+  echo "grunt: "; grunt -v;
+  echo "bower: "; bower -v;
 
   grunt serve;
