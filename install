@@ -1,14 +1,24 @@
 #!/bin/bash
 
+  echo "npm: "; npm -v; echo \n;
+  echo "node: "; node -v; echo \n;
+  echo "grunt: "; grunt -v; echo \n;
+  echo "bower: "; bower -v; echo \n;
+
   bower install;
   npm install
 
   grunt;
   grunt test;
 
-  echo "npm: "; npm -v;
-  echo "node: "; node -v;
-  echo "grunt: "; grunt -v;
-  echo "bower: "; bower -v;
+  echo "npm: "; npm -v; echo \n;
+  echo "node: "; node -v; echo \n;
+  echo "grunt: "; grunt -v; echo \n;
+  echo "bower: "; bower -v; echo \n;
 
   grunt serve;
+
+  echo "npm: "; npm -v; echo \n;
+  echo "node: "; node -v; echo \n;
+  echo "grunt: "; grunt -v; echo \n;
+  echo "bower: "; bower -v; echo \n;
