@@ -1,0 +1,14 @@
+#!/bin/bash
+
+  bower install;
+  npm install
+
+  grunt;
+  grunt test;
+  grunt serve;
+
+  bower -v;
+  npm -v;
+  grunt -v;
+  grunt-cli -v;
+
