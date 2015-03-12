@@ -1,7 +1,0 @@
-rmr4r ExtendMe/
-git clone https://github.com/un5t0ppab13/ExtendMe.git
-cd ExtendMe/
-alias nomnom="rm -rf node_modules && npm cache clean && npm i"
-nomnom
-bower install
-grs
